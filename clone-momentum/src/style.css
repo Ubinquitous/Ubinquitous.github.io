@@ -1,0 +1,157 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-repeat:no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+h1 {
+    padding-top:105px;
+    text-align:center;
+}
+h1 #clock {
+    font-size:110px;
+    display:inline-block;
+    padding: 10px;
+    animation: fadein 3s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 #greeting {
+    font-size:60px;
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 3s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#inputTodo {
+    text-align:center;
+}
+#loginForm input {
+    width:300px;
+    height:32px;
+    text-align:center;
+    padding-top:50px;
+    background:transparent;
+    color:white;
+    font-size:30px;
+    border-bottom:3px solid white;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+    font-weight:bold;
+}
+#loginForm input::placeholder {
+    color:white;
+    font-weight:bold;
+}
+#inputTodo input {
+    width:500px;
+    height:30px;
+    background: transparent;
+    border-bottom:1.5px solid white;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+#focusTodo {
+    font-size:30px;
+    padding-top:60px;
+    animation: fadein 3s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+li {
+    text-align:center;
+    margin-right:30px;
+    list-style:none;
+    font-weight:bold;
+    font-size:20px;
+}
+#quote {
+    margin-top:73px;
+    text-align:center;
+    animation: fadein 3s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#city{
+    text-align:left;
+    font-weight: bold;
+    font-size:18px;
+    padding-left:10px;
+    animation: fadein 6s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#weather{
+    text-align:top;
+    font-weight:bold;
+    font-size:18px;
+    padding-left:1390px;
+    animation: fadein 6s; 
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+button {
+    display:inline-block;
+    border-radius:0.35em;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:0.9em;
+    color:red;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    background-color:transparent;
+}

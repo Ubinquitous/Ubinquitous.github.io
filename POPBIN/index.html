@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPBIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>POPBIN</h1>
+    <h2 id="count">0</h2>
+    <script src="./script.js"></script>
+    <script>
+    var keydownCtrl = 0;
+    var keydownShift = 0;
+    
+    document.onkeydown=keycheck;
+    document.onkeyup=uncheckCtrlShift;
+    
+    function keycheck()
+    {
+          switch(event.keyCode){ 
+            case 123:event.keyCode='';return false; break; //F12
+            case 17:event.keyCode='';keydownCtrl=1;return false; break; //컨트롤키
+          }
+        
+          if(keydownCtrl) return false;
+    }
+    
+    function uncheckCtrlShift()
+    {
+          if(event.keyCode==17)      keydownCtrl=0;
+          if(event.keyCode==16)      keydownShift=0;
+    }
+    
+    
+        function click()
+    {
+        if ((event.button==2) || (event.button==2)) 
+            {alert('코드보지마!!');}
+    }
+    document.onmousedown=click;
+    
+    </script>
+</body>
+</html>
