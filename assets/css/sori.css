@@ -627,12 +627,16 @@ section.terms .slick-current dd {
     animation-delay: .7s
 }
 
+section.terms .sas dt:last-of-type {
+    background-image: url(../images/ico/sas.png);
+}
+
 section.terms .sta dt:last-of-type {
-    background-image: url(../images/ico/sta.png)
+    background-image: url(../images/ico/sta.png);
 }
 
 section.terms .dyn dt:last-of-type {
-    background-image: url(../images/ico/dyn.png)
+    background-image: url(../images/ico/dyn.png);
 }
 
 section.terms .dnf dt:last-of-type {
