@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d2939ef.css",
+    "main.js": "/static/js/main.ca238fcf.js",
+    "static/media/Fontspring-DEMO-rocgroteskwide-bold.otf": "/static/media/Fontspring-DEMO-rocgroteskwide-bold.7c6d28566c49696bfb0e.otf",
+    "static/media/Fontspring-DEMO-rocgroteskwide-regular.otf": "/static/media/Fontspring-DEMO-rocgroteskwide-regular.22478a861f6f8f97af04.otf",
+    "static/media/Fontspring-DEMO-rocgrotesk-regular.otf": "/static/media/Fontspring-DEMO-rocgrotesk-regular.09fe6ae3cd207c239b53.otf",
+    "index.html": "/index.html",
+    "static/media/cursor.svg": "/static/media/cursor.5cad61f4810c4362a45d.svg",
+    "main.4d2939ef.css.map": "/static/css/main.4d2939ef.css.map",
+    "main.ca238fcf.js.map": "/static/js/main.ca238fcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2939ef.css",
+    "static/js/main.ca238fcf.js"
+  ]
+}
